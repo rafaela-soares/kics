@@ -17,7 +17,7 @@ CxPolicy[result] {
 		"resourceName": tf_lib.get_specific_resource_name(resource, "alicloud_actiontrail_trail", name),
 		"searchKey": sprintf("alicloud_actiontrail_trail[%s]", [name]),
 		"issueType": "MissingAttribute",
-		"keyExpectedValue": sprintf("'%s' is set.",[possibilities[p]]),
+		"keyExpectedValue": sprintf("'%s' is set",[possibilities[p]]),
 		"keyActualValue": sprintf("'%s' is not set.",[possibilities[p]]),
         "searchLine": common_lib.build_search_line(["resource", "alicloud_actiontrail_trail", name], []),
 	}
