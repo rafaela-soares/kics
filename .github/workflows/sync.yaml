@@ -20,7 +20,7 @@ jobs:
         id: pull
         uses: tretuna/sync-branches@1.4.0
         with:
-          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+          GITHUB_TOKEN: ${{secrets.KICS_BOT_PAT}}
           FROM_BRANCH: 'master'
           TO_BRANCH: 'develop_1.6'
           PULL_REQUEST_TITLE: 'update(${TO_BRANCH}): sync ${FROM_BRANCH} to ${TO_BRANCH}'
