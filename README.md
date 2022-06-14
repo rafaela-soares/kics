@@ -20,7 +20,7 @@
 
 Find security vulnerabilities, compliance issues, and infrastructure misconfigurations early in the development cycle of your infrastructure-as-code with **KICS** by Checkmarx.
 
-**KICS** stands for **K**eeping **I**nfrastructure as **C**ode **S**ecure, it is open source and is a must-have for any cloud native project.
+**KICS** stands for **K**eeeeping **I**nfrastructure as **C**ode **S**ecure, it is open source and is a must-have for any cloud native project.
 
 #### Supported Platforms
 
