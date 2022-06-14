@@ -23,4 +23,5 @@ jobs:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
           FROM_BRANCH: 'master'
           TO_BRANCH: 'develop_1.6'
-          PULL_REQUEST_TITLE: 'update({TO_BRANCH}): sync {FROM_BRANCH} to {TO_BRANCH}'
+          PULL_REQUEST_TITLE: 'update(${TO_BRANCH}): sync ${FROM_BRANCH} to ${TO_BRANCH}'
+          PULL_REQUEST_BODY: 'updating ${TO_BRANCH}'
